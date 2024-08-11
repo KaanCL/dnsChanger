@@ -112,23 +112,13 @@
                 android:backgroundTint="@color/darkgreen"
                 android:fontFamily="@font/encodesansold"
                 android:text="Değiştir"
+                android:onClick="changeDns"
                 android:textColor="@color/white"
                 android:textSize="20dp"
 
                 ></Button>
 
-            <Button
-                android:id="@+id/saveButton"
-                android:layout_width="300dp"
-                android:layout_height="50dp"
-                android:layout_marginTop="30dp"
-                android:onClick="saveDnsAdress"
-                android:background="@drawable/btn_save"
-                android:backgroundTint="@color/darkblue"
-                android:fontFamily="@font/encodesansold"
-                android:text="Mevcut Dns’i Kaydet"
-                android:textColor="@color/white"
-                android:textSize="20dp"></Button>
+
 
 
         </LinearLayout>

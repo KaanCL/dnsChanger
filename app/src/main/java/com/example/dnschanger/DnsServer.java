@@ -48,6 +48,10 @@ public class DnsServer {
 
     }
 
+    public void setDnsMap(String name ,String dns1 , String dns2){
+        dnsMap.put(name, new String[]{dns1,dns2});
+    }
+
 
 
 
